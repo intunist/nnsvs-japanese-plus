@@ -17,6 +17,7 @@ Additional Phonemes compared to standard NNSVS HED:
 | axh         | voiced exhale (as part of syllable)                         |
 
 The additional flags (for ENUNU) added to this hed:
+
 | Flag | Purpose               |
 |------|-----------------------|
 | F    | falsetto              |
@@ -41,3 +42,8 @@ The additional flags (for ENUNU) added to this hed:
 | 1    | additional_1          |
 | 2    | additional_2          |
 | 3    | additional_3          |
+
+The table makes the `Edge` and `GlottalStop` phonemes more accessible.
+Instead of typing "`・あ`" for "GlottalStop a" you can now type "`-あ`".
+And for a vocal fry (`Edge`) you can type "`+あ`" or "`あ+`" instead of "`’あ`" or "`あ’`"
+The table also adds full romaji support for an easier experience for non-native and non-speaking users.
