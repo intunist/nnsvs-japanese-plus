@@ -1,8 +1,8 @@
 # nnsvs-custom-japanese
 Custom HED and Table for DYVAUX Japanese
 
-These are based on the HED files included with NNSVS.
-All this does is add support for DYNVAUX's own selection of ENUNU flags along with a few extra phonemes.
+These are based on the HED files included in the r9y9/nnmsvs repo.
+All this does is add support for DYNVAUX's own selection of ENUNU flags, a few extra phonemes, and romaji support in the table.
 
 These HED files should be compatible with any dataset that is compatible with the ENUNU-Training-Kit HED files.
 
