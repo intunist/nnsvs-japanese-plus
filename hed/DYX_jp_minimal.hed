@@ -1,7 +1,7 @@
 #Customized JP HED for NNSVS. Based on HED from r9y9/NNSVS repo.
-#in_dim: 227(duration/timelag), 231(acoustic)
+#in_dim: 233(duration/timelag), 237(acoustic)
 #in_rest_idx: 23
-#in_lfx0_idx: 323
+#in_lfx0_idx: 188
 
 #tone flags
 QS      "falsetto"                              {*^F_*}
@@ -35,9 +35,11 @@ QS      "L-Phone_Muon"                          {*^sil-*,*^pau-*}
 QS      "C-Phone_Muon"                          {*-sil+*,*-pau+*}
 QS      "R-Phone_Muon"                          {*+sil=*,*+pau=*}
 
+QS      "L-VUV_Voiced"                          {*^a-*,*^i-*,*^u-*,*^e-*,*^o-*,*^v-*,*^b-*,*^by-*,*^m-*,*^my-*,*^w-*,*^z-*,*^j-*,*^d-*,*^dy-*,*^n-*,*^ny-*,*^N-*,*^r-*,*^ry-*,*^g-*,*^gy-*,*^y-*}
+QS      "L-VUV_Unvoiced"                        {*^A-*,*^I-*,*^U-*,*^E-*,*^O-*,*^f-*,*^p-*,*^py-*,*^s-*,*^sh-*,*^ts-*,*^ch-*,*^t-*,*^ty-*,*^k-*,*^ky-*,*^h-*,*^hy-*}
+
 QS      "L-Phone_Boin"                          {*^a-*,*^i-*,*^u-*,*^e-*,*^o-*,*^A-*,*^I-*,*^U-*,*^E-*,*^O-*,*^N-*}
 QS      "L-Phone_Shiin"                         {*^v-*,*^b-*,*^by-*,*^m-*,*^my-*,*^w-*,*^z-*,*^j-*,*^d-*,*^dy-*,*^n-*,*^ny-*,*^N-*,*^r-*,*^ry-*,*^g-*,*^gy-*,*^y-*,*^f-*,*^p-*,*^py-*,*^s-*,*^sh-*,*^ts-*,*^ch-*,*^t-*,*^ty-*,*^k-*,*^ky-*,*^h-*,*^hy-*}
-
 
 QS      "L-Phone_A"                             {*^A-*}
 QS      "L-Phone_E"                             {*^E-*}
@@ -84,6 +86,9 @@ QS      "L-Phone_v"                             {*^v-*}
 QS      "L-Phone_w"                             {*^w-*}
 QS      "L-Phone_y"                             {*^y-*}
 QS      "L-Phone_z"                             {*^z-*}
+
+QS      "C-VUV_Voiced"                          {*-a+*,*-i+*,*-u+*,*-e+*,*-o+*,*-v+*,*-b+*,*-by+*,*-m+*,*-my+*,*-w+*,*-z+*,*-j+*,*-d+*,*-dy+*,*-n+*,*-ny+*,*-N+*,*-r+*,*-ry+*,*-g+*,*-gy+*,*-y+*}
+QS      "C-VUV_Unvoiced"                        {*-A+*,*-I+*,*-U+*,*-E+*,*-O+*,*-f+*,*-p+*,*-py+*,*-s+*,*-sh+*,*-ts+*,*-ch+*,*-t+*,*-ty+*,*-k+*,*-ky+*,*-h+*,*-hy+*}
 
 QS      "C-Phone_Boin"                          {*-a+*,*-i+*,*-u+*,*-e+*,*-o+*,*-A+*,*-I+*,*-U+*,*-E+*,*-O+*,*-N+*}
 QS      "C-Phone_Shiin"                         {*-v+*,*-b+*,*-by+*,*-m+*,*-my+*,*-w+*,*-z+*,*-j+*,*-d+*,*-dy+*,*-n+*,*-ny+*,*-N+*,*-r+*,*-ry+*,*-g+*,*-gy+*,*-y+*,*-f+*,*-p+*,*-py+*,*-s+*,*-sh+*,*-ts+*,*-ch+*,*-t+*,*-ty+*,*-k+*,*-ky+*,*-h+*,*-hy+*}
@@ -134,8 +139,10 @@ QS      "C-Phone_w"                             {*-w+*}
 QS      "C-Phone_y"                             {*-y+*}
 QS      "C-Phone_z"                             {*-z+*}
 
-QS      "R-Phone_Boin"                          {*+a=*,*+i=*,*+u=*,*+e=*,*+o=*,*+A=*,*+I=*,*+U=*,*+E=*,*+O=*}
+QS      "R-VUV_Voiced"                          {*+a=*,*+i=*,*+u=*,*+e=*,*+o=*,*+v=*,*+b=*,*+by=*,*+m=*,*+my=*,*+w=*,*+z=*,*+j=*,*+d=*,*+dy=*,*+n=*,*+ny=*,*+N=*,*+r=*,*+ry=*,*+g=*,*+gy=*,*+y=*}
+QS      "R-VUV_Unvoiced"                        {*+A=*,*+I=*,*+U=*,*+E=*,*+O=*,*+f=*,*+p=*,*+py=*,*+s=*,*+sh=*,*+ts=*,*+ch=*,*+t=*,*+ty=*,*+k=*,*+ky=*,*+h=*,*+hy=*}
 
+QS      "R-Phone_Boin"                          {*+a=*,*+i=*,*+u=*,*+e=*,*+o=*,*+A=*,*+I=*,*+U=*,*+E=*,*+O=*}
 QS      "R-Phone_Shiin"                         {*+v=*,*+b=*,*+by=*,*+m=*,*+my=*,*+w=*,*+z=*,*+j=*,*+d=*,*+dy=*,*+n=*,*+ny=*,*+N=*,*+r=*,*+ry=*,*+g=*,*+gy=*,*+y=*,*+f=*,*+p=*,*+py=*,*+s=*,*+sh=*,*+ts=*,*+ch=*,*+t=*,*+ty=*,*+k=*,*+ky=*,*+h=*,*+hy=*}
 
 QS      "R-Phone_A"                             {*+A=*}
