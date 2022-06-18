@@ -35,8 +35,8 @@ QS      "L-Phone_Muon"                          {*^sil-*,*^pau-*}
 QS      "C-Phone_Muon"                          {*-sil+*,*-pau+*}
 QS      "R-Phone_Muon"                          {*+sil=*,*+pau=*}
 
-QS      "L-Phone_Yuuseion"                      {*^a-*,*^i-*,*^u-*,*^e-*,*^o-*,*^v-*,*^b-*,*^by-*,*^m-*,*^my-*,*^w-*,*^z-*,*^j-*,*^d-*,*^dy-*,*^n-*,*^ny-*,*^N-*,*^r-*,*^ry-*,*^g-*,*^gy-*,*^y-*}
-QS      "L-Phone_Museion"                       {*^A-*,*^I-*,*^U-*,*^E-*,*^O-*,*^f-*,*^p-*,*^py-*,*^s-*,*^sh-*,*^ts-*,*^ch-*,*^t-*,*^ty-*,*^k-*,*^ky-*,*^h-*,*^hy-*}
+QS      "L-VUV_Voiced"                          {*^a-*,*^i-*,*^u-*,*^e-*,*^o-*,*^v-*,*^b-*,*^by-*,*^m-*,*^my-*,*^w-*,*^z-*,*^j-*,*^d-*,*^dy-*,*^n-*,*^ny-*,*^N-*,*^r-*,*^ry-*,*^g-*,*^gy-*,*^y-*}
+QS      "L-VUV_Unvoiced"                        {*^A-*,*^I-*,*^U-*,*^E-*,*^O-*,*^f-*,*^p-*,*^py-*,*^s-*,*^sh-*,*^ts-*,*^ch-*,*^t-*,*^ty-*,*^k-*,*^ky-*,*^h-*,*^hy-*}
 
 QS      "L-Phone_Boin"                          {*^a-*,*^i-*,*^u-*,*^e-*,*^o-*,*^A-*,*^I-*,*^U-*,*^E-*,*^O-*}
 QS      "L-Phone_Yuusei_Boin"                   {*^a-*,*^i-*,*^u-*,*^e-*,*^o-*}
@@ -136,8 +136,8 @@ QS      "L-Phone_w"                             {*^w-*}
 QS      "L-Phone_y"                             {*^y-*}
 QS      "L-Phone_z"                             {*^z-*}
 
-QS      "C-Phone_Yuuseion"                      {*-a+*,*-i+*,*-u+*,*-e+*,*-o+*,*-v+*,*-b+*,*-by+*,*-m+*,*-my+*,*-w+*,*-z+*,*-j+*,*-d+*,*-dy+*,*-n+*,*-ny+*,*-N+*,*-r+*,*-ry+*,*-g+*,*-gy+*,*-y+*}
-QS      "C-Phone_Museion"                       {*-A+*,*-I+*,*-U+*,*-E+*,*-O+*,*-f+*,*-p+*,*-py+*,*-s+*,*-sh+*,*-ts+*,*-ch+*,*-t+*,*-ty+*,*-k+*,*-ky+*,*-h+*,*-hy+*}
+QS      "C-VUV_Voiced"                          {*-a+*,*-i+*,*-u+*,*-e+*,*-o+*,*-v+*,*-b+*,*-by+*,*-m+*,*-my+*,*-w+*,*-z+*,*-j+*,*-d+*,*-dy+*,*-n+*,*-ny+*,*-N+*,*-r+*,*-ry+*,*-g+*,*-gy+*,*-y+*}
+QS      "C-VUV_Devoiced"                        {*-A+*,*-I+*,*-U+*,*-E+*,*-O+*,*-f+*,*-p+*,*-py+*,*-s+*,*-sh+*,*-ts+*,*-ch+*,*-t+*,*-ty+*,*-k+*,*-ky+*,*-h+*,*-hy+*}
 
 QS      "C-Phone_Boin"                          {*-a+*,*-i+*,*-u+*,*-e+*,*-o+*,*-A+*,*-I+*,*-U+*,*-E+*,*-O+*}
 QS      "C-Phone_Yuusei_Boin"                   {*-a+*,*-i+*,*-u+*,*-e+*,*-o+*}
@@ -237,8 +237,8 @@ QS      "C-Phone_w"                             {*-w+*}
 QS      "C-Phone_y"                             {*-y+*}
 QS      "C-Phone_z"                             {*-z+*}
 
-QS      "R-Phone_Yuuseion"                      {*+a=*,*+i=*,*+u=*,*+e=*,*+o=*,*+v=*,*+b=*,*+by=*,*+m=*,*+my=*,*+w=*,*+z=*,*+j=*,*+d=*,*+dy=*,*+n=*,*+ny=*,*+N=*,*+r=*,*+ry=*,*+g=*,*+gy=*,*+y=*}
-QS      "R-Phone_Museion"                       {*+A=*,*+I=*,*+U=*,*+E=*,*+O=*,*+f=*,*+p=*,*+py=*,*+s=*,*+sh=*,*+ts=*,*+ch=*,*+t=*,*+ty=*,*+k=*,*+ky=*,*+h=*,*+hy=*}
+QS      "R-VUV_Voiced"                          {*+a=*,*+i=*,*+u=*,*+e=*,*+o=*,*+v=*,*+b=*,*+by=*,*+m=*,*+my=*,*+w=*,*+z=*,*+j=*,*+d=*,*+dy=*,*+n=*,*+ny=*,*+N=*,*+r=*,*+ry=*,*+g=*,*+gy=*,*+y=*}
+QS      "R-VUV_Devoiced"                        {*+A=*,*+I=*,*+U=*,*+E=*,*+O=*,*+f=*,*+p=*,*+py=*,*+s=*,*+sh=*,*+ts=*,*+ch=*,*+t=*,*+ty=*,*+k=*,*+ky=*,*+h=*,*+hy=*}
 
 QS      "R-Phone_Boin"                          {*+a=*,*+i=*,*+u=*,*+e=*,*+o=*,*+A=*,*+I=*,*+U=*,*+E=*,*+O=*}
 QS      "R-Phone_Yuusei_Boin"                   {*+a=*,*+i=*,*+u=*,*+e=*,*+o=*}
