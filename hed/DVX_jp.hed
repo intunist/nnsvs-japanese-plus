@@ -1,5 +1,5 @@
 #Customized JP HED for NNSVS. Based on HED from r9y9/NNSVS repo.
-#in_dim: 268(duration/timelag), 272(acoustic)
+#in_dim: 368(duration/timelag), 372(acoustic)
 #in_rest_idx: 23
 #in_lfx0_idx: 323
 
