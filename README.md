@@ -1,8 +1,8 @@
 # nnsvs-custom-japanese
-Custom HED and Table for DYVAUX Japanese
+Custom HED and Table for UPT3 Japanese, also known as "Japanese+".
 
-These are based on the HED files included in the r9y9/nnmsvs repo.
-All this does is add support for DYVAUX's own selection of ENUNU flags, a few extra phonemes, and romaji support in the table.
+These are based on the HED files included in the r9y9/nnsvs repo.
+All this does is add support for UTP3's own selection of ENUNU flags, a few extra phonemes, and romaji support in the table.
 
 These HED files should be compatible with any dataset that is compatible with the ENUNU-Training-Kit HED files.
 
