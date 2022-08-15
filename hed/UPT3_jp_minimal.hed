@@ -13,8 +13,8 @@ QS      "closed_narrow_vowel"                   {*^CLS_*}
 QS      "whisper_devoiced"                      {*^W_*}
 QS      "false_cord_fry_scream"                 {*^S_*}
 QS      "guttural_scream_growl"                 {*^G_*}
-QS      "bright_resonance"                      {*^B_*}
-QS      "dark_resonance"                        {*^D_*}
+QS      "bright_resonance"                      {*^BR_*}
+QS      "dark_resonance"                        {*^DR_*}
 QS      "young_higher_formant"                  {*^Y_*}
 QS      "older_lower_formant"                   {*^O_*}
 QS      "thin"                                  {*^T_*}
