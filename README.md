@@ -29,8 +29,8 @@ The additional flags (for ENUNU) added to this hed:
 | W    | whisper_devoiced      |
 | S    | false_cord_fry_scream |
 | G    | guttural_scream_growl |
-| B    | bright_resonance      |
-| D    | dark_resonance        |
+| BR   | bright_resonance      |
+| DR   | dark_resonance        |
 | Y    | young_higher_formant  |
 | O    | older_lower_formant   |
 | T    | thin                  |
