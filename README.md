@@ -10,8 +10,8 @@ Additional Phonemes compared to standard NNSVS HED:
 
 | Phoneme     | Purpose                                                     |
 |-------------|-------------------------------------------------------------|
-| Edge        | Vocal Fry (ETK Compatibility)                               |
-| GlottalStop | Glottal Stop (ETK Compatibility)                            |
+| ~~Edge~~ vf        |Vocal Fry ~~(ETK Compatibility)~~                               |
+| ~~GlottalStop~~ gs | Glottal Stop ~~(ETK Compatibility)~~                            |
 | trash       | junk phoneme                                                |
 | exh         | devoiced exhale (either on it's own or as part of syllable) |
 | axh         | voiced exhale (as part of syllable)                         |
