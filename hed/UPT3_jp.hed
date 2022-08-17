@@ -346,13 +346,13 @@ QS      "L-Phone_exh"                           {*^exh-*}
 QS      "C-Phone_exh"                           {*-exh+*}
 QS      "R-Phone_exh"                           {*+exh=*}
 
-QS      "L-Phone_Edge"                          {*^Edge-*}
-QS      "C-Phone_Edge"                          {*-Edge+*}
-QS      "R-Phone_Edge"                          {*+Edge=*}
+QS      "L-Phone_vf"                            {*^vf-*}
+QS      "C-Phone_vf"                            {*-vf+*}
+QS      "R-Phone_vf"                            {*+vf=*}
 
-QS      "L-Phone_GlottalStop"                   {*^GlottalStop-*}
-QS      "C-Phone_GlottalStop"                   {*-GlottalStop+*}
-QS      "R-Phone_GlottalStop"                   {*+GlottalStop=*}
+QS      "L-Phone_gs"                            {*^gs-*}
+QS      "C-Phone_gs"                            {*-gs+*}
+QS      "R-Phone_gs"                            {*+gs=*}
 
 QS      "L-Phone_trash"                         {*^trash-*}
 QS      "C-Phone_trash"                         {*-trash+*}
