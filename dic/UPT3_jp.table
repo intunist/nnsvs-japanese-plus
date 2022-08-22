@@ -1,5 +1,5 @@
-#DYXAUX's Custom Japanese dictionary.
-#Adds romaji support as well as making Edge and GlottalStop phonemes more accessible.
+#Intunist's Custom Japanese dictionary.
+#Adds romaji support as well as making vocal fry and glottal stop phonemes more accessible.
 息 br
 br br
 pau pau
@@ -352,94 +352,94 @@ sil sil
 ヂェ j E
 ぢょ j o
 ヂョ j O
-・あ GlottalStop a
-・ア GlottalStop A
-・い GlottalStop i
-・イ GlottalStop I
-・う GlottalStop u
-・ウ GlottalStop U
-・え GlottalStop e
-・エ GlottalStop E
-・お GlottalStop o
-・オ GlottalStop O
-・ん GlottalStop N
--あ GlottalStop a
--ア GlottalStop A
--い GlottalStop i
--イ GlottalStop I
--う GlottalStop u
--ウ GlottalStop U
--え GlottalStop e
--エ GlottalStop E
--お GlottalStop o
--オ GlottalStop O
--ん GlottalStop N
-’あ Edge a
-’ア Edge A
-’い Edge i
-’イ Edge I
-’う Edge u
-’ウ Edge U
-’え Edge e
-’エ Edge E
-’お Edge o
-’オ Edge O
-’ん Edge N
-あ’ Edge a
-ア’ Edge A
-い’ Edge i
-イ’ Edge I
-う’ Edge u
-ウ’ Edge U
-え’ Edge e
-エ’ Edge E
-お’ Edge o
-オ’ Edge O
-ん’ Edge N
-'あ Edge a
-'ア Edge A
-'い Edge i
-'イ Edge I
-'う Edge u
-'ウ Edge U
-'え Edge e
-'エ Edge E
-'お Edge o
-'オ Edge O
-'ん Edge N
-あ' Edge a
-ア' Edge A
-い' Edge i
-イ' Edge I
-う' Edge u
-ウ' Edge U
-え' Edge e
-エ' Edge E
-お' Edge o
-オ' Edge O
-ん' Edge N
-+あ Edge a
-+ア Edge A
-+い Edge i
-+イ Edge I
-+う Edge u
-+ウ Edge U
-+え Edge e
-+エ Edge E
-+お Edge o
-+オ Edge O
-+ん Edge N
-あ+ a Edge
-ア+ A Edge
-い+ i Edge
-イ+ I Edge
-う+ u Edge
-ウ+ U Edge
-え+ e Edge
-エ+ E Edge
-お+ o Edge
-オ+ O Edge
-ん+ N Edge
+・あ gs a
+・ア gs A
+・い gs i
+・イ gs I
+・う gs u
+・ウ gs U
+・え gs e
+・エ gs E
+・お gs o
+・オ gs O
+・ん gs N
+-あ gs a
+-ア gs A
+-い gs i
+-イ gs I
+-う gs u
+-ウ gs U
+-え gs e
+-エ gs E
+-お gs o
+-オ gs O
+-ん gs N
+’あ vf a
+’ア vf A
+’い vf i
+’イ vf I
+’う vf u
+’ウ vf U
+’え vf e
+’エ vf E
+’お vf o
+’オ vf O
+’ん vf N
+あ’ vf a
+ア’ vf A
+い’ vf i
+イ’ vf I
+う’ vf u
+ウ’ vf U
+え’ vf e
+エ’ vf E
+お’ vf o
+オ’ vf O
+ん’ vf N
+'あ vf a
+'ア vf A
+'い vf i
+'イ vf I
+'う vf u
+'ウ vf U
+'え vf e
+'エ vf E
+'お vf o
+'オ vf O
+'ん vf N
+あ' vf a
+ア' vf A
+い' vf i
+イ' vf I
+う' vf u
+ウ' vf U
+え' vf e
+エ' vf E
+お' vf o
+オ' vf O
+ん' vf N
++あ vf a
++ア vf A
++い vf i
++イ vf I
++う vf u
++ウ vf U
++え vf e
++エ vf E
++お vf o
++オ vf O
++ん vf N
+あ+ a vf
+ア+ A vf
+い+ i vf
+イ+ I vf
+う+ u vf
+ウ+ U vf
+え+ e vf
+エ+ E vf
+お+ o vf
+オ+ O vf
+ん+ N vf
 A A
 a a
 I I
@@ -756,7 +756,11 @@ tyE ty E
 s s
 h h
 sh sh
-gs GlottalStop
-vf Edge
-VocalFry Edge
-vocalfry Edge
+gs gs
+vf vf
+VocalFry vf
+vocalfry vf
+Edge vf
+edge vf
+GlottalStop gs
+glottalstop gs
