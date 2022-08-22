@@ -1,5 +1,5 @@
 # nnsvs-custom-japanese
-Custom HED and Table for UPT3 Japanese, also known as "Japanese+".
+Custom HED and Table for Intunist Japanese, also known as "Japanese+".
 
 These are based on the HED files included in the r9y9/nnsvs repo.
 All this does is add support for UTP3's own selection of ENUNU flags, a few extra phonemes, and romaji support in the table.
