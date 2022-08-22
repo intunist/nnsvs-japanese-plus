@@ -27,23 +27,14 @@ The additional flags (for ENUNU) added to this hed:
 | OPN  | open_wide_vowel       |
 | CLS  | closed_narrow_vowel   |
 | W    | whisper_devoiced      |
-| S    | false_cord_fry_scream |
-| G    | guttural_scream_growl |
 | BR   | bright_resonance      |
 | DR   | dark_resonance        |
-| Y    | young_higher_formant  |
-| O    | older_lower_formant   |
-| T    | thin                  |
-| R    | fry_rattle            |
 | N    | nasal                 |
-| HPY  | happy                 |
-| SAD  | sad                   |
-| MAD  | mad                   |
 | 1    | additional_1          |
 | 2    | additional_2          |
 | 3    | additional_3          |
 
-The table makes the `Edge` and `GlottalStop` phonemes more accessible.
-Instead of typing "`・あ`" for "GlottalStop a" you can now type "`-あ`".
-And for a vocal fry (`Edge`) you can type "`+あ`" or "`あ+`" instead of "`’あ`" or "`あ’`"
+The table makes the `vf` and `gs` phonemes more accessible.
+Instead of typing "`・あ`" for "gs a" you can now type "`-あ`".
+And for a vocal fry you can type "`+あ`" or "`あ+`" instead of "`’あ`" or "`あ’`"
 The table also adds full romaji support for an easier experience for non-native and non-speaking users.
