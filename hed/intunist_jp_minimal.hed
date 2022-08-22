@@ -11,19 +11,9 @@ QS      "strong"                                {*^ST_*}
 QS      "open_wide_vowel"                       {*^OPN_*}
 QS      "closed_narrow_vowel"                   {*^CLS_*}
 QS      "whisper_devoiced"                      {*^W_*}
-QS      "false_cord_fry_scream"                 {*^S_*}
-QS      "guttural_scream_growl"                 {*^G_*}
 QS      "bright_resonance"                      {*^BR_*}
 QS      "dark_resonance"                        {*^DR_*}
-QS      "young_higher_formant"                  {*^Y_*}
-QS      "older_lower_formant"                   {*^O_*}
-QS      "thin"                                  {*^T_*}
-QS      "fry_rattle"                            {*^R_*}
 QS      "nasal"                                 {*^N_*}
-#emotion flags
-QS      "happy"                                 {*^HPY_*}
-QS      "sad"                                   {*^SAD_*}
-QS      "mad"                                   {*^MAD_*}
 #custom flags
 QS      "additional_1"                          {*^1_*}
 QS      "additional_2"                          {*^2_*}
