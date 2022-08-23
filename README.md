@@ -34,7 +34,7 @@ The additional flags (for ENUNU) added to this hed:
 | 2    | additional_2          |
 | 3    | additional_3          |
 
-The table makes the `vf` and `gs` phonemes more accessible.
-Instead of typing "`・あ`" for "gs a" you can now type "`-あ`".
+The table makes the `vf` and `q` phonemes more accessible.
+Instead of typing "`・あ`" for "q a" you can now type "`-あ`".
 And for a vocal fry you can type "`+あ`" or "`あ+`" instead of "`’あ`" or "`あ’`"
 The table also adds full romaji support for an easier experience for non-native and non-speaking users.
