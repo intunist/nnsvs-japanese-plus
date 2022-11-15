@@ -3,26 +3,10 @@
 #in_rest_idx: 14
 #in_lfx0_idx: 179
 
-#tone flags
-QS      "falsetto"                              {*^F_*}
-QS      "head_voice"                            {*^H_*}
-QS      "soft"                                  {*^SF_*}
-QS      "strong"                                {*^ST_*}
-QS      "open_wide_vowel"                       {*^OPN_*}
-QS      "closed_narrow_vowel"                   {*^CLS_*}
-QS      "whisper_devoiced"                      {*^W_*}
-QS      "vivid_bright_resonance"                {*^V_*}
-QS      "dark_resonance"                        {*^D_*}
-QS      "nasal_resonance"                       {*^N_*}
-#custom flags
-QS      "additional_1"                          {*^1_*}
-QS      "additional_2"                          {*^2_*}
-QS      "additional_3"                          {*^3_*}
-
 #Phonetic definitions
 
-QS      "L-Phone_Muon"                          {*^sil-*,*^pau-*}
 QS      "C-Phone_Muon"                          {*-sil+*,*-pau+*}
+QS      "L-Phone_Muon"                          {*^sil-*,*^pau-*}
 QS      "R-Phone_Muon"                          {*+sil=*,*+pau=*}
 
 QS      "L-VUV_Voiced"                          {*^a-*,*^i-*,*^u-*,*^e-*,*^o-*,*^b-*,*^by-*,*^m-*,*^my-*,*^w-*,*^n-*,*^ny-*,*^N-*,*^r-*,*^ry-*,*^y-*}
@@ -200,6 +184,22 @@ QS      "R-Phone_q"                             {*+q=*}
 QS      "L-Phone_trash"                         {*^trash-*}
 QS      "C-Phone_trash"                         {*-trash+*}
 QS      "R-Phone_trash"                         {*+trash=*}
+
+#tone flags
+QS      "falsetto"                              {*^F_*}
+QS      "head_voice"                            {*^H_*}
+QS      "soft"                                  {*^SF_*}
+QS      "strong"                                {*^ST_*}
+QS      "open_wide_vowel"                       {*^OPN_*}
+QS      "closed_narrow_vowel"                   {*^CLS_*}
+QS      "whisper_devoiced"                      {*^W_*}
+QS      "vivid_bright_resonance"                {*^V_*}
+QS      "dark_resonance"                        {*^D_*}
+QS      "nasal_resonance"                       {*^N_*}
+#custom flags
+QS      "additional_1"                          {*^1_*}
+QS      "additional_2"                          {*^2_*}
+QS      "additional_3"                          {*^3_*}
 
 #The following was copied from the NNSVS hed
 
