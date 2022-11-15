@@ -5,8 +5,8 @@
 
 #Phonetic definitions
 
-QS      "L-Phone_Muon"                          {*^sil-*,*^pau-*}
 QS      "C-Phone_Muon"                          {*-sil+*,*-pau+*}
+QS      "L-Phone_Muon"                          {*^sil-*,*^pau-*}
 QS      "R-Phone_Muon"                          {*+sil=*,*+pau=*}
 
 QS      "L-VUV_Voiced"                          {*^a-*,*^i-*,*^u-*,*^e-*,*^o-*,*^b-*,*^by-*,*^m-*,*^my-*,*^w-*,*^n-*,*^ny-*,*^N-*,*^r-*,*^ry-*,*^y-*}
