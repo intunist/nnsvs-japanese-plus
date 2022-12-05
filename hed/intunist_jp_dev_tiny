@@ -1,0 +1,73 @@
+#Customized JP HED for NNSVS. Created by Intunist
+#dev HED for NNSVS 0.1.0. absurdly small edition
+#do not use
+#in_dim: 56(duration/timelag), 60(acoustic)
+#in_rest_idx: 0
+#in_lfx0_idx: 51
+#in_ph_start_idx: 1
+#in_ph_end_idx: 50
+
+#Phonetic definitions
+
+QS      "C-Phone_Muon"                          {*-pau+*}
+
+QS      "C-Phone_A"                             {*-A+*}
+QS      "C-Phone_E"                             {*-E+*}
+QS      "C-Phone_I"                             {*-I+*}
+QS      "C-Phone_N"                             {*-N+*}
+QS      "C-Phone_O"                             {*-O+*}
+QS      "C-Phone_U"                             {*-U+*}
+QS      "C-Phone_a"                             {*-a+*}
+QS      "C-Phone_b"                             {*-b+*}
+QS      "C-Phone_br"                            {*-br+*}
+QS      "C-Phone_by"                            {*-by+*}
+QS      "C-Phone_ch"                            {*-ch+*}
+QS      "C-Phone_cl"                            {*-cl+*}
+QS      "C-Phone_d"                             {*-d+*}
+QS      "C-Phone_dy"                            {*-dy+*}
+QS      "C-Phone_e"                             {*-e+*}
+QS      "C-Phone_f"                             {*-f+*}
+QS      "C-Phone_g"                             {*-g+*}
+QS      "C-Phone_gy"                            {*-gy+*}
+QS      "C-Phone_h"                             {*-h+*}
+QS      "C-Phone_hy"                            {*-hy+*}
+QS      "C-Phone_i"                             {*-i+*}
+QS      "C-Phone_j"                             {*-j+*}
+QS      "C-Phone_k"                             {*-k+*}
+QS      "C-Phone_ky"                            {*-ky+*}
+QS      "C-Phone_m"                             {*-m+*}
+QS      "C-Phone_my"                            {*-my+*}
+QS      "C-Phone_n"                             {*-n+*}
+QS      "C-Phone_ny"                            {*-ny+*}
+QS      "C-Phone_o"                             {*-o+*}
+QS      "C-Phone_p"                             {*-p+*}
+QS      "C-Phone_pau"                           {*-pau+*}
+QS      "C-Phone_py"                            {*-py+*}
+QS      "C-Phone_r"                             {*-r+*}
+QS      "C-Phone_ry"                            {*-ry+*}
+QS      "C-Phone_s"                             {*-s+*}
+QS      "C-Phone_sh"                            {*-sh+*}
+QS      "C-Phone_sil"                           {*-sil+*}
+QS      "C-Phone_t"                             {*-t+*}
+QS      "C-Phone_ts"                            {*-ts+*}
+QS      "C-Phone_ty"                            {*-ty+*}
+QS      "C-Phone_u"                             {*-u+*}
+QS      "C-Phone_v"                             {*-v+*}
+QS      "C-Phone_w"                             {*-w+*}
+QS      "C-Phone_y"                             {*-y+*}
+QS      "C-Phone_z"                             {*-z+*}
+
+QS      "C-Phone_axh"                           {*-axh+*}
+QS      "C-Phone_exh"                           {*-exh+*}
+QS      "C-Phone_vf"                            {*-vf+*}
+QS      "C-Phone_q"                             {*-q+*}
+
+#The following was copied from the NNSVS hed
+
+CQS     "d1"                                    {/D:(\NOTE)!}
+CQS     "e1"                                    {/E:(\NOTE)]}
+CQS     "f1"                                    {/F:(\NOTE)#}
+
+CQS     "p12"                                   {-(\d+)!}
+CQS     "e7"                                    {@(\d+)#}
+CQS     "e26"                                   {|(\d+)]}
