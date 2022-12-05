@@ -8,7 +8,6 @@
 #Phonetic definitions
 
 QS      "C-Phone_Muon"                          {*-pau+*}
-
 QS      "C-Phone_A"                             {*-A+*}
 QS      "C-Phone_E"                             {*-E+*}
 QS      "C-Phone_I"                             {*-I+*}
@@ -54,7 +53,6 @@ QS      "C-Phone_v"                             {*-v+*}
 QS      "C-Phone_w"                             {*-w+*}
 QS      "C-Phone_y"                             {*-y+*}
 QS      "C-Phone_z"                             {*-z+*}
-
 QS      "C-Phone_axh"                           {*-axh+*}
 QS      "C-Phone_exh"                           {*-exh+*}
 QS      "C-Phone_vf"                            {*-vf+*}
@@ -68,4 +66,3 @@ CQS     "f1"                                    {/F:(\NOTE)#}
 
 CQS     "p12"                                   {-(\d+)!}
 CQS     "e7"                                    {@(\d+)#}
-CQS     "e26"                                   {|(\d+)]}
