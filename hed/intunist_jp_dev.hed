@@ -1,11 +1,9 @@
 #Customized JP HED for NNSVS. Created by Intunist
 #dev HED for NNSVS 0.1.0.
 #do not use
-#in_dim: 359(duration/timelag), 363(acoustic)
-#in_rest_idx: 0
-#in_lfx0_idx: 314
-in_ph_start_idx: 147
-in_ph_end_idx: 191
+#in_dim: 359(timing), 363(acoustic)
+#in_rest_idx: 0 // in_lfx0_idx: 314
+#in_ph_start_idx: 147 // in_ph_end_idx: 191
 
 #Phonetic definitions
 
