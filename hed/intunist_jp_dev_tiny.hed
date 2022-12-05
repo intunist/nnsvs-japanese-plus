@@ -3,7 +3,7 @@
 #do not use
 #in_dim: 55(duration/timelag), 59(acoustic)
 #in_rest_idx: 0 // in_lfx0_idx: 51
-#in_ph_start_idx: 1 // in_ph_end_idx: 50
+#in_ph_start_idx: 2 // in_ph_end_idx: 50
 
 #Phonetic definitions
 
