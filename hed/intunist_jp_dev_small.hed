@@ -1,7 +1,7 @@
 #Customized JP HED for NNSVS. Created by Intunist
 #dev HED for NNSVS 0.1.0. absurdly small edition
 #do not use
-#in_dim: 160(timing) // 164(acoustic)
+#in_dim: 146(timing) // 150(acoustic)
 #in_rest_idx: 0 // in_lfx0_idx: 114
 #in_ph_start_idx: 51 // in_ph_end_idx: 100
 
@@ -132,31 +132,17 @@ QS      "additional_3"                          {*^3_*}
 CQS     "d1"                                    {/D:(\NOTE)!}
 CQS     "e1"                                    {/E:(\NOTE)]}
 CQS     "f1"                                    {/F:(\NOTE)#}
-CQS     "d2"                                    {!(\d+)#}
 CQS     "e2"                                    {](\d+)^}
-CQS     "f2"                                    {#(\d+)#}
 CQS     "p12"                                   {-(\d+)!}
 CQS     "p13"                                   {!(\d+)[}
 CQS     "p14"                                   {[(\d+)$}
 CQS     "p15"                                   {$(\d+)]}
-CQS     "a1"                                    {/A:(\d+)-}
 CQS     "b1"                                    {/B:(\d+)_}
-CQS     "c1"                                    {/C:(\d+)+}
-CQS     "a2"                                    {-(\d+)-}
-CQS     "a3"                                    {-(\d+)@}
 CQS     "b2"                                    {_(\d+)_}
 CQS     "b3"                                    {_(\d+)@}
-CQS     "c2"                                    {+(\d+)+}
-CQS     "c3"                                    {+(\d+)@}
 CQS     "e6"                                    {!(\d+)@}
 CQS     "e7"                                    {@(\d+)#}
 CQS     "e8"                                    {#(\d+)+}
-CQS     "d6"                                    {|(\d+)&}
-CQS     "d7"                                    {&(\d+);}
-CQS     "d8"                                    {;(\d+)-}
-CQS     "f6"                                    {$(\d+)+}
-CQS     "f7"                                    {+(\d+)%}
-CQS     "f8"                                    {%(\d+);}
 
 #The following was copied from the ETK hed
 
