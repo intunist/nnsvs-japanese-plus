@@ -1,5 +1,6 @@
 #Customized JP HED for NNSVS. Created by Intunist
 #dev HED for NNSVS 0.1.0. absurdly small edition
+#Please credit Intunist if you modify or use this HED as a base.
 #do not use
 #in_dim: 146(timing) // 150(acoustic)
 #in_rest_idx: 0 // in_lfx0_idx: 114
