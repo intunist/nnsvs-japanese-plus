@@ -9,6 +9,9 @@
 #Phonetic definitions
 
 QS      "C-Phone_Muon"                          {*-pau+*}
+QS      "L-Phone_Muon"                          {*^pau-*}
+QS      "R-Phone_Muon"                          {*+pau=*}
+
 QS      "C-Phone_Boin"                          {*-a+*,*-i+*,*-u+*,*-e+*,*-o+*,*-A+*,*-I+*,*-U+*,*-E+*,*-O+*}
 QS      "C-Phone_Yuusei_Boin"                   {*-a+*,*-i+*,*-u+*,*-e+*,*-o+*}
 QS      "C-Phone_Museika_Boin"                  {*-A+*,*-I+*,*-U+*,*-E+*,*-O+*}
@@ -111,7 +114,6 @@ QS      "C-Phone_w"                             {*-w+*}
 QS      "C-Phone_y"                             {*-y+*}
 QS      "C-Phone_z"                             {*-z+*}
 
-QS      "L-Phone_Muon"                          {*^pau-*}
 QS      "L-Phone_Boin"                          {*^a-*,*^i-*,*^u-*,*^e-*,*^o-*,*^A-*,*^I-*,*^U-*,*^E-*,*^O-*}
 QS      "L-Phone_Yuusei_Boin"                   {*^a-*,*^i-*,*^u-*,*^e-*,*^o-*}
 QS      "L-Phone_Museika_Boin"                  {*^A-*,*^I-*,*^U-*,*^E-*,*^O-*}
@@ -214,7 +216,6 @@ QS      "L-Phone_w"                             {*^w-*}
 QS      "L-Phone_y"                             {*^y-*}
 QS      "L-Phone_z"                             {*^z-*}
 
-QS      "R-Phone_Muon"                          {*+pau=*}
 QS      "R-Phone_Boin"                          {*+a=*,*+i=*,*+u=*,*+e=*,*+o=*,*+A=*,*+I=*,*+U=*,*+E=*,*+O=*}
 QS      "R-Phone_Yuusei_Boin"                   {*+a=*,*+i=*,*+u=*,*+e=*,*+o=*}
 QS      "R-Phone_Museika_Boin"                  {*+A=*,*+I=*,*+U=*,*+E=*,*+O=*}
